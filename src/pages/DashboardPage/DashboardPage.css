@@ -1,0 +1,14 @@
+.Container-Dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.Quote{
+    margin: auto;
+}
+
+p{
+    margin: auto;
+}

@@ -1,0 +1,61 @@
+.Header-Photo {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin: 0px;
+    position: inherit;
+}
+
+.Header{
+    position: relative;
+}
+
+.Avatar{
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+    z-index: 3;
+}
+
+.Container-Info{
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Container-Profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 200px;
+    gap: 48px;
+}
+
+.Container-Videos{
+    margin-bottom: 40px;
+    width: 700px;
+}
+
+.Title-Quote{
+    margin-bottom: 40px;
+}
+
+.Title-Video{
+    margin-bottom: 40px;
+}
+
+.Container-Cards{
+    justify-content: center;
+    gap: 16px;
+    width: 700px;
+}
+
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Title-Empty{
+    font-weight: 300;
+    font-size: large;
+}

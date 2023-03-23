@@ -1,0 +1,16 @@
+.Container-Quote{
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/7232820/pexels-photo-7232820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Quote{
+    padding: 0px;
+    margin-bottom: 40px;
+}

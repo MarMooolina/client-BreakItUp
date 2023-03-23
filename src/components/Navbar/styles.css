@@ -1,0 +1,73 @@
+Button{
+    color: white;
+}
+
+.Toolbar{
+    justify-content: space-between;
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    height: 8px;
+    overflow: hidden;
+    margin: 0px;
+    position: inherit;
+}
+.Container > .Crop {
+    position:absolute;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.Crop:hover{
+    color:rgb(255, 255, 255)
+}
+
+.ant-menu-light, .ant-menu-horizontal > .ant-menu-item-selected {
+    color:rgb(212, 56, 56)
+}
+
+.ant-menu .ant-menu-item a::before{
+    color: #8d6e63;
+}
+
+a {
+    color: #8d6e63;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #8d6e63;
+}
+
+.ant-menu .ant-menu-item a::after{
+    color: #e4511b;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+    color: #8d6e63;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected::after .ant-menu-light.ant-menu-horizontal > .ant-menu-submenu-selected::after {
+    border-bottom-width: 2px;
+    border-bottom-color: #e4511b;
+}
+
+.ant-menu-overflow-item .ant-menu-item .ant-menu-active .ant-menu-item-selected .ant-menu-item-only-child{
+    border-bottom-width: 2px;
+    border-bottom-color: #e4511b;    
+}
+
+.ant-menu{
+    color: #e4511b;
+}

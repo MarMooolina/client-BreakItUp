@@ -1,0 +1,5 @@
+export { default as Navbar } from "./Navbar"
+export { default as Page } from "./Page"
+export { default as Note } from "./Note"
+export { default as VideoFunction } from "./Video"
+export { default as GetQuote } from "./Quote"

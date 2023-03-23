@@ -1,0 +1,10 @@
+.Title-Video-D{
+    margin-bottom: 50px;
+}
+
+.Video-Fav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+}

@@ -1,0 +1,46 @@
+.Container-Notes{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0px 100px;
+}
+
+.Title-Notes{
+    margin-bottom: 40px;
+}
+
+.Container-Cards-Note{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    justify-content: flex-start;
+}
+
+.ant-btn-primary{
+    background-color: #8d6e63
+}
+
+.ant-btn-primary:hover{
+    color: #db6337
+}
+
+.Container-Buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12px;
+        padding: 0px 20px;
+}
+
+.ant-space{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+.Title-Empty{
+    font-weight: 300;
+    font-size: large;
+}
